@@ -1,0 +1,4 @@
+typer
+python-dotenv
+youtube-transcript-api
+google-generativeai
