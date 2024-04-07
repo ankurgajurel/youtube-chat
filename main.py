@@ -35,9 +35,10 @@ def chat():
             if response:
                 typer.echo(response)
 
-            typer.echo(
+            else:
+                typer.echo(
                 "I am sorry, I could not understand your query. Please try again."
-            )
+                )
 
     except Exception as e:
         typer.echo(f"An error occurred: {e}")
