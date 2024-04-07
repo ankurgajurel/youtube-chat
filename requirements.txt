@@ -2,4 +2,4 @@ typer
 python-dotenv
 youtube-transcript-api
 google-generativeai
-googleapiclient
+google-api-python-client
