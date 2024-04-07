@@ -26,3 +26,5 @@ python main.py
 I started by first writing the code to get the Youtube API key and search for videos based on the user's query. I directly tried creating my own API wrapper but it was really messy and hard to maintain so I decided to use the Google API's Python client.
 
 I then wrote the code to get the user's query and return the top 5 videos based on the query. I then used Gemini's LLM API to generate responses for the chatbot. Finally, I used Python's Typer library to create a CLI for the chatbot.
+
+I tried to implement function calling but Gemini's LLM API was really hard to work with and it used to give the same function call response for any kind of question. There was also a way to use Python's client library for function calling but I didn't have enough time for it.
