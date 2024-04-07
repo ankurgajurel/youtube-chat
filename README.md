@@ -30,3 +30,14 @@ I then wrote the code to get the user's query and return the top 5 videos based 
 I tried to implement function calling but Gemini's LLM API was really hard to work with and it used to give the same function call response for any kind of question. There was also a way to use Python's client library for function calling but I didn't have enough time for it.
 
 I also tried using Claude AI's LLM but it was really slow and since I did not have enough time, I decided to use Gemini's LLM API.
+
+
+## Usage
+
+This project was built within a specific timeframe and sometimes the LLM hallucinates. 
+
+For best usage, please follow the following steps:
+
+1. Run the chatbot using the command `python main.py`
+2. To search for videos, enter your query with the keyword "search" to search for videos
+3. To summarize a video, enter your query with the keyword "summarize" to summarize a video
